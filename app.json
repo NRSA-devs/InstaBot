@@ -1,0 +1,11 @@
+{
+    "env": {
+        "insta_username": {"description": "InstaBot account Username","required": true},
+        "insta_password": {"description": "password :P","required": true},
+        "username": {"description": "Enter username of your original account (whose followers you want to monitor","required": true},
+        "discord_webhook_url": {"description": "Enter your discord webhook URL : ","required": true}
+    },
+    "buildpacks": [
+        {"url": "heroku/python"}
+    ]
+}
